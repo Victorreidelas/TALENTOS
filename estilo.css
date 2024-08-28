@@ -30,4 +30,6 @@
 .t2{text-align: center;}
 .bloco1{
    background-color: azure;
+   padding: 20px;
+   text-align: right;
 }
