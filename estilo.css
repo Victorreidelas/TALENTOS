@@ -24,12 +24,39 @@
     background-color: #bf1d1d;
     border-radius: 15px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
-.t2{text-align: center;}
-.bloco1{
-   background-color: azure;
-   padding: 20px;
-   text-align: right;
+.t2{
+   text-align: center;
+}
+
+.segunda{
+   display: flex;
+   justify-content: space-between;
+    margin: 20px;
+}
+.bloco2 {
+   
+   display: grid;
+   flex: 1;
+   margin: 0 10px;
+   padding: 50px;
+   border: 1px solid black;
+   border-radius: 8px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   background-color: #c2b6b6;
+}
+.v1{
+   display: flex;
+   text-align: center;
+}
+.im{
+    margin-right: 20px
+}
+
+@media screen and (max-width:768px){
+   
+   
 }
